@@ -1,3 +1,5 @@
+# LIVE LINK - https://wonderful-toffee-89fc2c.netlify.app/
+
 # Subscription Management System ⚡
 
 A modern, responsive, and full-featured frontend for recurring subscription businesses (SaaS companies, coaching institutes, ISPs, maintenance services, and membership organizations). Built with React + Vite, styled with custom CSS, and architected for seamless integration with an Odoo ERP backend.
@@ -75,7 +77,6 @@ VITE_ODOO_API_KEY=your_odoo_external_api_key_here
 ```bash
 npm run dev
 ```
-Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ### 4. Build for Production
 ```bash
