@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": "usr_demo_1",
+      "fullName": "Demo Subscriber",
+      "email": "demo@subscriber.com",
+      "phone": "9876543210",
+      "password": "password123",
+      "createdAt": "2026-10-15T10:00:00.000Z"
+    }
+  ],
+  "plans": [
+    {
+      "id": "basic",
+      "name": "Basic Plan",
+      "price": 499,
+      "formattedPrice": "₹499",
+      "billingPeriod": "month",
+      "isPopular": false,
+      "features": [
+        "1 user account",
+        "Email support",
+        "Basic subscription analytics",
+        "Monthly billing"
+      ]
+    },
+    {
+      "id": "standard",
+      "name": "Standard Plan",
+      "price": 999,
+      "formattedPrice": "₹999",
+      "billingPeriod": "month",
+      "isPopular": true,
+      "features": [
+        "5 user accounts",
+        "Priority email support",
+        "Advanced subscription analytics",
+        "Automated renewal reminders",
+        "Monthly billing"
+      ]
+    },
+    {
+      "id": "premium",
+      "name": "Premium Plan",
+      "price": 1999,
+      "formattedPrice": "₹1,999",
+      "billingPeriod": "month",
+      "isPopular": false,
+      "features": [
+        "Unlimited user accounts",
+        "24/7 priority support",
+        "Custom revenue reports",
+        "Automated recurring billing",
+        "Customer self-service portal",
+        "Monthly billing"
+      ]
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "sub_demo_1",
+      "userId": "usr_demo_1",
+      "planId": "standard",
+      "planName": "Standard Plan",
+      "amount": "₹1,179",
+      "billingCycle": "Monthly",
+      "startDate": "15 Oct 2026",
+      "nextBillingDate": "15 Nov 2026",
+      "status": "Active",
+      "autoRenew": true
+    }
+  ],
+  "invoices": [
+    {
+      "id": "INV-2026-001",
+      "userId": "usr_demo_1",
+      "date": "15 Oct 2026",
+      "amount": "₹1,179",
+      "plan": "Standard Plan",
+      "status": "Paid"
+    }
+  ],
+  "supportTickets": []
+}
